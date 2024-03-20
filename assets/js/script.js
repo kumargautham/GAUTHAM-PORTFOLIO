@@ -173,7 +173,7 @@ function updateExperienceCounter() {
     const minutes = Math.floor((timeDiff % (60 * 60 * 1000)) / (60 * 1000));
     const seconds = Math.floor((timeDiff % (60 * 1000)) / 1000);
 
-    document.getElementById('experience-counter').textContent = `${years} Years : ${months} Months : ${days} Days`;
+    document.getElementById('experience-counter').textContent = `${years} Years : ${months} Months`;
 }
 
 // Call the function to update the counter initially
