@@ -159,7 +159,7 @@ for (let i = 0; i < navigationLinks.length; i++) {
 }
 
 // Your start date (replace this with your actual start date)
-const startDate = new Date('2021-04-21');
+const startDate = new Date('2021-03-21');
 
 // Function to calculate and update the counter
 function updateExperienceCounter() {
